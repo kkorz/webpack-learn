@@ -1,20 +1,38 @@
 # webapck-learn
 
-#### 介绍
+### 介绍
 从0到1搭建react脚手架
 
-#### 软件架构
+### 安装使用
+- yarn 安装依赖
+- yarn start 启动本地开发环境
+- yarn dev 开发环境打包
+- yarn build 生产环境打包
+
+### 软件架构
 webpack5.x
 
-#### 使用说明
+### 代码规范
+✅eslint <br />
+✅prettier <br />
+✅husky <br />
 
-1.  yarn 安装依赖
-2.  yarn dev 启动测试
-3.  yarn build 生产打包
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+### 目录结构
+```md
+├── build
+│   ├── webpack.config.js
+│   ├── webpack.dev.js
+│   └── webpack.prod.js
+├── public
+│   └── index.html
+├── src
+│   ├── App.jsx
+│   ├── APP.less
+│   ├── index.js
+│   └── pages
+│       ├── Demo
+│       └── index.jsx
+├── README.md
+├── package.json
+└── yarn.lock
+```
